@@ -1,0 +1,75 @@
+@media screen and (max-width:1024px){
+    #Bestsellerproduct .content-box header .category-text{
+        display: none;
+    }
+    #Bestsellerproduct .content-box header .category-title{
+        width: 100%;
+    }
+    #Bestsellerproduct .content-box .product-carousel{
+        margin:20% 5%;
+    }
+    #Bestsellerproduct .content-box .product-carousel .post{
+        width: 60%;
+    }
+    #downloadsec {
+        margin: 50% auto
+    }
+    #downloadsec .container-fluid .row .image img{
+        height: 90%;
+    }
+    #khabarname header .row .title h4{
+        font-size: .5rem;
+    }
+    #khabarname header .row .icon{
+        top: 0;
+    }
+    #khabarname header .row .icon img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #khabarname header .emailform form .form-row{
+        margin:20px auto;
+    }
+    #khabarname .row h1{
+        margin-top: 5%;
+    }
+    #downloadsec .container-fluid .row .download-box .d-title img{
+        width: 20%;
+    }
+    #downloadsec .container-fluid .row .download-box .d-body{
+        width: 100%;
+    }
+    #ertebat {
+        width: 85%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    #ertebat .content .row .right-content{
+        text-align: center!important;
+        font-size: 1.2rem;
+        line-height: 2.5;
+        font-weight: 600;
+        white-space: normal;
+    }
+    #ertebat .content .row .left-content span{
+        width: 50%;
+    }
+    #Bestsellerproduct .content-box{
+        top:-10px!important;
+    }
+    #Bestsellerproduct{
+        margin:20% auto;
+    }
+    .main-grid-menu .col-lg-2{
+        display: none;
+    }
+    .A-iconbox .A-text .A-body{
+        margin-top: 5px;
+    }
+    .fullproductinfo{
+        padding: 0;
+    }
+    .fullproductinfo .producttitle h1 {
+        white-space: nowrap;
+    }
+}
