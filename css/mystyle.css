@@ -203,12 +203,21 @@ border-radius: 5px;
 	line-height: 2.5;
 	color: #000;
 }
+.post_item .item_inner .image_pos img{
+  border: 1px solid #eee;
+border-radius: 5px;
+}
 .post-carousel .carousel-cell .post .price{
 	font-size: 1.2rem;
 	line-height: 1.5;
 	color: #000;
 }
 .post-carousel .carousel-cell .bottom_info button{
+  background-image: linear-gradient(to right, #d81c00, #e65100, #f17800, #f99a00,
+#ffbc00);
+border: none;
+}
+.post_item .item_inner .bottom_info button{
   background-image: linear-gradient(to right, #d81c00, #e65100, #f17800, #f99a00,
 #ffbc00);
 border: none;
@@ -900,6 +909,16 @@ body { font-family: sans-serif; }
 .last_single_post h4{
   cursor: pointer;
 }
+.price_box p{
+  margin-top: 25px;
+}
+.price_box p label{
+  font-size: 1.4rem;
+}
+.price_box p input{
+  text-align: center;
+  font-size: 1.2rem;
+}
 @media only screen and (max-width: 1023px) {
   header{
   	height: 100px;
@@ -912,25 +931,33 @@ body { font-family: sans-serif; }
   	display: none;
   }
   header .responsive_header{
-  	display: block;
+    display: block;
+    background: #fff;
+  }
+  header .responsive_header i{
+    color: #000;
+
   }
   .menu_icon{
   	font-size: 1.5rem;
-  	color: #fff;
+  	color: #000;
   }
   .responsive_icons{
   	list-style: none;
   	display: flex;
-  	color: #fff;
+  	color: #000 ;
   	font-size: 1.5rem;
   	margin-top: 15px;
   }
   .responsive_icons li{
   	margin: 13%;
   }
-  .responsive_icons li a i{
-  	color: #fff;
+  .responsive_icons li a{
+    color: #000!important;
   }
+  /*.responsive_icons li a i{
+  	color: #fff;
+  }*/
   .post-carousel .carousel-cell{
   	width: 45%;
   }
@@ -995,4 +1022,23 @@ body { font-family: sans-serif; }
   width: 90%;
   margin: 5px 15px;
 }
+.banner_slider .col-12{
+  height: 200px;
+}
+.post_slider .col-12 {
+  height: 200px;
+}
+}
+@media only screen and (width:1024px){
+  .desktop_show{
+    height: 300px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .responsive_icons{
+    margin-top: 0;
+  }
+  .post-carousel .flickity-viewport{
+    height: 450px!important;
+  }
 }
