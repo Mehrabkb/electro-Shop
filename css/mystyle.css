@@ -919,6 +919,26 @@ body { font-family: sans-serif; }
   text-align: center;
   font-size: 1.2rem;
 }
+.cat_header{
+  height: 100px;
+}
+.options_mobile {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.options_mobile .nav-link{
+  color: #495057!important;
+}
+.like_post_slider .item_inner .bottom_info button{
+  background-image: linear-gradient(to right, #d81c00, #e65100, #f17800, #f99a00,
+  #ffbc00);
+  border: none;
+}
+.like_post_slider .item_inner .image_pos img{
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
 @media only screen and (max-width: 1023px) {
   header{
   	height: 100px;
